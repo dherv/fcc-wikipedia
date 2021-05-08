@@ -44,7 +44,7 @@ const WikiPageList = ({ resource }) => {
 const fetchWiki = (value) => {
   return wrapPromise(
     fetch(
-      `https://en.wikipedia.org/w/api.php?action=query&origin=*&format=json&prop=pageimages|info&inprop=url&list=search&gsrsearch=${value}`
+      `https://en.wikipedia.org/w/api.php?action=query&origin=*&format=json&prop=pageimages|info&inprop=url&generator=search&gsrsearch=${value}`
     )
       .then((response) => response.json())
       .then((res) =>

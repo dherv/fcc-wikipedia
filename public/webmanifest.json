@@ -1,6 +1,6 @@
 {
-  "name": "Weather App",
-  "short_name": "Weather App",
+  "name": "Wiki App",
+  "short_name": "Wiki App",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#FFF",

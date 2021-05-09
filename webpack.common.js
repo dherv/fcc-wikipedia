@@ -20,7 +20,7 @@ module.exports = {
   resolve: { extensions: ["*", ".js", ".jsx"] },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Weather App",
+      title: "Wiki App",
       template: "./public/index.html",
       filename: "./index.html",
       inject: "head",
